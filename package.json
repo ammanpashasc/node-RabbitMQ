@@ -1,0 +1,25 @@
+{
+  "name": "node-rabbitmq",
+  "version": "1.0.0",
+  "description": "Hello world repo for RabbitMQ interaction with Node",
+  "main": "index.js",
+  "scripts": {
+    "pub": "ts-node src/publisher.ts",
+    "sub": "ts-node src/consumer.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ammanpashasc/node-rabbitmq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ammanpashasc/node-rabbitmq/issues"
+  },
+  "homepage": "https://github.com/ammanpashasc/node-rabbitmq#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
